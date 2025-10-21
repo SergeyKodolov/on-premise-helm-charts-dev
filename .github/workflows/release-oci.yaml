@@ -162,10 +162,14 @@ jobs:
       - name: Log in to GitHub Container Registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
+      - name: Lowercase ${{ github.repository }}
+        run: |
+          echo "IMAGE_NAME=${GITHUB_REPOSITORY@L}" >> ${GITHUB_ENV}
+
       # ШАГ 9. Публикуем чарты
       - name: Push packaged Helm charts to ghcr.io
         run: |
           for chart in ./packaged/*.tgz; do
-            echo "Pushing chart: $chart -> ghcr.io/${{ github.repository_owner }}/charts"
-            helm push $chart oci://ghcr.io/${{ github.repository_owner }}/charts
+            echo "Pushing chart: $chart -> ghcr.io/${{ env.IMAGE_NAME }}/charts"
+            helm push $chart oci://ghcr.io/${{ env.IMAGE_NAME }}/charts
           done
