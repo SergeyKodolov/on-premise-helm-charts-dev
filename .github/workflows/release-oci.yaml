@@ -164,7 +164,7 @@ jobs:
 
       - name: Lowercase ${{ github.repository_owner }}
         run: |
-          echo "OCI_REPO=${REPOSITORY_OWNER@L}" >> ${GITHUB_ENV}
+          echo "OCI_REPO=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')" >> ${GITHUB_ENV}
 
       # ШАГ 9. Публикуем чарты
       - name: Push packaged Helm charts to ghcr.io
