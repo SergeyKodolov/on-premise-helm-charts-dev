@@ -166,6 +166,6 @@ jobs:
       - name: Push packaged Helm charts to ghcr.io
         run: |
           for chart in ./packaged/*.tgz; do
-            echo "Pushing chart: $chart -> ghcr.io/${{ github.repository_owner }}/charts"
-            helm push $chart oci://ghcr.io/${{ github.repository_owner }}/charts
+            echo "Pushing chart: $chart -> ghcr.io/${{ github.repository_owner }}/on-premise-helm-charts-dev"
+            helm push $chart oci://ghcr.io/${{ github.repository_owner }}/on-premise-helm-charts-dev
           done
