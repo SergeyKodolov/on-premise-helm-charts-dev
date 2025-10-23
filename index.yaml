@@ -2438,6 +2438,20 @@ entries:
   dgtt:
   - apiVersion: v2
     appVersion: 0.2.27-b188673e09
+    created: "2025-10-23T11:55:37.921418264Z"
+    description: DGTT Helm chart for Kubernetes
+    digest: 81a1d0c7351665bbe2b10742b9f5a39edb9f839902b4a1b9abc3ef69f7131535
+    maintainers:
+    - email: on-premise@2gis.com
+      name: 2gis
+      url: https://github.com/2gis
+    name: dgtt
+    type: application
+    urls:
+    - https://github.com/SergeyKodolov/on-premise-helm-charts-dev/releases/download/dgtt-2.55.0/dgtt-2.55.0.tgz
+    version: 2.55.0
+  - apiVersion: v2
+    appVersion: 0.2.27-b188673e09
     created: "2025-09-30T13:50:18.150894592Z"
     description: DGTT Helm chart for Kubernetes
     digest: 35348ea0dc1bda0f3e99d1fe49d7689fe8d05e2c315bded8a0c9844d47347468
@@ -28552,4 +28566,4 @@ entries:
     urls:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/zookeeper-1.5.2/zookeeper-1.5.2.tgz
     version: 1.5.2
-generated: "2025-10-23T11:53:33.46417978Z"
+generated: "2025-10-23T11:55:41.106135662Z"
