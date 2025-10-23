@@ -20515,6 +20515,20 @@ entries:
   pro-api:
   - apiVersion: v2
     appVersion: 2.31.1
+    created: "2025-10-23T11:19:06.048629978Z"
+    description: Geo API for getting geo data
+    digest: bb407735d0b8ae8a073a998a86e62aaea52cf28dcdb9cefcf69fad62e7d47d12
+    maintainers:
+    - email: on-premise@2gis.com
+      name: 2gis
+      url: https://github.com/2gis
+    name: pro-api
+    type: application
+    urls:
+    - https://github.com/SergeyKodolov/on-premise-helm-charts-dev/releases/download/pro-api-2.2.0/pro-api-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v2
+    appVersion: 2.31.1
     created: "2025-10-09T09:52:03.353495278Z"
     description: Geo API for getting geo data
     digest: 3645fcee93b8fba6c565be9155663ced5db9b6faf0981d8eef2c5cc312c73e6b
@@ -21382,6 +21396,20 @@ entries:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/pro-api-1.4.5/pro-api-1.4.5.tgz
     version: 1.4.5
   pro-ui:
+  - apiVersion: v2
+    appVersion: 4.33.0
+    created: "2025-10-23T11:19:06.171072065Z"
+    description: A Helm chart for Kubernetes to deploy 2GIS Pro UI service
+    digest: b0a7f3836694865dbee4012392cadc205b354982219cfce96072161baa79c65d
+    maintainers:
+    - email: on-premise@2gis.com
+      name: 2gis
+      url: https://github.com/2gis
+    name: pro-ui
+    type: application
+    urls:
+    - https://github.com/SergeyKodolov/on-premise-helm-charts-dev/releases/download/pro-ui-2.2.0/pro-ui-2.2.0.tgz
+    version: 2.2.0
   - apiVersion: v2
     appVersion: 4.33.0
     created: "2025-10-09T09:52:03.497483471Z"
@@ -27981,4 +28009,4 @@ entries:
     urls:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/zookeeper-1.5.2/zookeeper-1.5.2.tgz
     version: 1.5.2
-generated: "2025-10-23T11:09:51.754949751Z"
+generated: "2025-10-23T11:19:06.176538627Z"
