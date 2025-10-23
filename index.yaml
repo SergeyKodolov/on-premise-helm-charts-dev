@@ -5644,6 +5644,22 @@ entries:
   keycloak:
   - apiVersion: v2
     appVersion: 21.1.1-debian-11-r4
+    created: "2025-10-23T15:16:42.730983593Z"
+    description: Keycloak is a high performance Java-based identity and access management
+      solution. It lets developers add an authentication layer to their applications
+      with minimum effort.
+    digest: 4064fb4aa69f1c46382ace9fdbc83ba7ceb4cda5571a0fa6fdb06ff6f7d6f415
+    maintainers:
+    - email: on-premise@2gis.com
+      name: 2gis
+      url: https://github.com/2gis
+    name: keycloak
+    type: application
+    urls:
+    - https://github.com/SergeyKodolov/on-premise-helm-charts-dev/releases/download/keycloak-2.6.0/keycloak-2.6.0.tgz
+    version: 2.6.0
+  - apiVersion: v2
+    appVersion: 21.1.1-debian-11-r4
     created: "2025-10-23T11:50:51.802909962Z"
     description: Keycloak is a high performance Java-based identity and access management
       solution. It lets developers add an authentication layer to their applications
@@ -6379,6 +6395,20 @@ entries:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/keycloak-1.7.5/keycloak-1.7.5.tgz
     version: 1.7.5
   keys:
+  - apiVersion: v2
+    appVersion: 1.135.1
+    created: "2025-10-23T15:16:42.878877642Z"
+    description: A Helm chart for Kubernetes to deploy API Keys service
+    digest: f98461e20de7a2380378243d66ecb6f55b7c4953fcccd7d30576ee7e79a1311f
+    maintainers:
+    - email: on-premise@2gis.com
+      name: 2gis
+      url: https://github.com/2gis
+    name: keys
+    type: application
+    urls:
+    - https://github.com/SergeyKodolov/on-premise-helm-charts-dev/releases/download/keys-2.6.0/keys-2.6.0.tgz
+    version: 2.6.0
   - apiVersion: v2
     appVersion: 1.135.1
     created: "2025-10-23T11:50:52.024960794Z"
@@ -7626,6 +7656,20 @@ entries:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/keys-0.1.2/keys-0.1.2.tgz
     version: 0.1.2
   license:
+  - apiVersion: v2
+    appVersion: 2.4.1
+    created: "2025-10-23T15:16:43.039254929Z"
+    description: A Helm chart for Kubernetes to deploy License service
+    digest: 1f4dd503e8edf90ddf6db37560d5fd4c0847f05bb156d13108e994634d9892ba
+    maintainers:
+    - email: on-premise@2gis.com
+      name: 2gis
+      url: https://github.com/2gis
+    name: license
+    type: application
+    urls:
+    - https://github.com/SergeyKodolov/on-premise-helm-charts-dev/releases/download/license-2.6.0/license-2.6.0.tgz
+    version: 2.6.0
   - apiVersion: v2
     appVersion: 2.4.1
     created: "2025-10-23T11:50:52.252486012Z"
@@ -28612,4 +28656,4 @@ entries:
     urls:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/zookeeper-1.5.2/zookeeper-1.5.2.tgz
     version: 1.5.2
-generated: "2025-10-23T15:15:06.631517798Z"
+generated: "2025-10-23T15:16:43.043074245Z"
