@@ -3590,6 +3590,21 @@ entries:
     version: 1.9.1
   generic-chart:
   - apiVersion: v2
+    created: "2025-10-24T11:32:02.073455247Z"
+    description: Generic library Helm chart for 2Gis
+    digest: cabd51eed95ed323bacd9ef8d9d53be8b76de4daeae34d0f0400cbc8168863ba
+    keywords:
+    - library
+    maintainers:
+    - email: on-premise@2gis.com
+      name: 2gis
+      url: https://github.com/2gis
+    name: generic-chart
+    type: library
+    urls:
+    - https://github.com/SergeyKodolov/on-premise-helm-charts-dev/releases/download/generic-chart-2.77.0/generic-chart-2.77.0.tgz
+    version: 2.77.0
+  - apiVersion: v2
     created: "2025-10-23T15:15:06.628770923Z"
     description: Generic library Helm chart for 2Gis
     digest: 744797aa0b50a5760fe2476c67d37b6756cecb5aaa0f96d5f948b6271f18503c
@@ -29064,4 +29079,4 @@ entries:
     urls:
     - https://github.com/2gis/on-premise-helm-charts/releases/download/zookeeper-1.5.2/zookeeper-1.5.2.tgz
     version: 1.5.2
-generated: "2025-10-23T15:20:28.828804705Z"
+generated: "2025-10-24T11:32:02.452111399Z"
